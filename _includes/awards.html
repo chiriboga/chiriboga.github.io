@@ -1,14 +1,3 @@
-{% assign rows = site.data.awards.size | divided_by: 4.0 | ceil %}
-{% for i in (1..rows) %}
-  {% assign offset = forloop.index0 | times: 4 %}
-  <div class="row">
-    {% for award in site.data.awards limit:4 offset:offset %}
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-		<p><strong>{{award.title}}</strong> {{award.description}}</p>
-	</div>
-    {% endfor %}
-  </div>
-{% endfor %}
-
-
-
+{% assign rows = site.data.awards.size | divided_by: 4.0 | ceil %} {% for i in (1..rows) %} {% assign offset = forloop.index0 | times: 4 %} {% for award in site.data.awards limit:4 offset:offset %}
+<p><strong>{{award.title}}</strong> {{award.description}}</p>
+{% endfor %} {% endfor %}

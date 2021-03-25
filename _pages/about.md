@@ -1,17 +1,16 @@
 ---
-layout: page
+layout: default
 title: About Me
 permalink: /about/
 image: richard-chiriboga.jpg
 ---
+{% include hero-aboutus.html %}
 
-Richard Chiriboga is a combination of multi-disciplines – including strategy, project management and web development.
-
+<article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
 In a career that spans more than 20 years, Richard has worked across global corporate, non-profit and boutique agency environments. He brings expertise in leading website restructuring, development projects, corporate intranet builds and content management plans through the complete lifecycle. Known for being a trusted partner across global matrixed organizations and having the ability to communicate complex information to both technical and non-technical users, including information pertaining to change management, stakeholder engagement and governance. Hispanic marketing and social media expertise: Created award-winning website CorrienteLatina.com. Fluent in English, with intermediate Spanish fluency.
-
-***
+<hr/>
 {% include skills.html %}
-***
+<hr/>
 <div class="overlap-container">
   <div class="container">
     <div class="row">
@@ -22,7 +21,7 @@ In a career that spans more than 20 years, Richard has worked across global corp
     {% include awards.html %}
   </div>
 </div>
-***
+<hr/>
 <div class="overlap-container">
   <div class="container">
     <div class="row">
@@ -53,3 +52,4 @@ In a career that spans more than 20 years, Richard has worked across global corp
     </div>
   </div>
 </div>
+</article>
