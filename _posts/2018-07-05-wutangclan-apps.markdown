@@ -3,7 +3,7 @@ layout: post
 title:  "I built some pretty cool Wutang Clan Web Apps"
 date:   2018-07-05 15:10:47 -0500
 image:  'blog/wu-apps-ft.jpg'
-tags:   Web
+tags:   web
 ---
 Aside from my on CorrienteLatina.com website, I do some really cool coding for the **WuTang Clan**. I have built some of the web "games" that many people have played on the web.
 

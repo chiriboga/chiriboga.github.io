@@ -3,7 +3,7 @@ layout: post
 title:  "Generate Random Background Gradient using SASS"
 date:   2018-06-05 10:00:00 -0500
 image:  'blog/background-gradient.png'
-tags:   CSS
+tags:   css
 ---
 I thought it would be a cool idea to be able to create a mixin for adding gradient backgrounds to an element. Then I thought, what if I could create one that would output the gradient without knowing what the initial color was. So the following code first creates a random hex color and creates the proper options. You can either create a light to dark version:
 - **light** (lighten 15% of the initial color)

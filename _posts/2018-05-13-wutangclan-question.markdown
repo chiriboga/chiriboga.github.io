@@ -3,7 +3,7 @@ layout: post
 title:  "The WuTang Clan Question"
 date:   2018-05-13 15:10:47 -0500
 image:  "blog/wutang-logo-ft.png"
-tags:   General
+tags:   general
 ---
 So when people read my bio and such, people are always fascinated by the work I have done and do for the **WuTang Clan**. There's always the "Wait...What? You did that?" and I can't lie, It's seriously awesome to me. To deal with one of the most iconic hiphop groups of all time is a dream. Back in 1993 when I was an aspiring young hiphop artist, I remember sitting in the dorms of Syracuse University and calling the number on the back of the single for Protect Ya Neck and talking to a person by the name of John Gibbons; who I belive was their attorney, and asking him how I could send my demo to them. Fast forward all these years and I have done some really cool things with them.
 

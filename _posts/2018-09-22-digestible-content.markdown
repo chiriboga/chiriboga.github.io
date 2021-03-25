@@ -3,7 +3,7 @@ layout: post
 title:  "Digestible Content - What is it?"
 date:   2018-09-22 09:00:00 -0500
 image:  'blog/digestible-content.jpg'
-tags:   Web
+tags:   web
 ---
 Have you ever tried to find information about something, went to a website and all of a sudden you come across a page, scroll down and pow! "It was the best of times, it was the worst of times". You sigh at the mere idea of thinking how long it will take you to read and try to understand the massive amounts of data that are on the page. 
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Cool SASS Margin and Padding Mixin"
 date:   2018-05-14 15:10:47 -0500
 image:  'blog/sass.png'
-tags:   CSS
+tags:   css
 ---
 So I have recently really gotten into SASS and how powerful it is. I mean I have used it before but nothing like I have in the last couple of weeks. Real world examples are always the best; Especially when you have a more experienced developer helping. 
 

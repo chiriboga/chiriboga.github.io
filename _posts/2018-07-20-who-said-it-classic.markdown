@@ -3,7 +3,7 @@ layout: post
 title:  "I built a cool game - 'Who Said it? Classic Hiphop Edition'"
 date:   2018-07-20 10:30:00 -0500
 image:  'blog/corrientelatina-who-said-it-FT.png'
-tags:   Web
+tags:   web
 ---
 I have to admit that I have recently been fascinated with trying to build some cool "game" using only HTML, CSS and Javascript. My first attempt; which is a still a work in progress was a jQuery [remake of "Dope Wars"](https://richardchiriboga.com/drugwars/){:target="_blank"}. Do you guys remember that game?
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Headed to BBCon to Speak at My First Session"
 date:   2018-06-25 15:30:00 -0500
 image:  'blog/bbcon2018.jpg'
-tags:   Speaking
+tags:   speaking
 ---
 While working at the Avon Breast Cancer Crusade in 2017, I was asked to attend BBCon and catch sessions to help see what other nonprofits were doing and see what we could use to help our own nonprofit. I learned from some great people and sessions and got to meet Noah Cooper; a principle Web Developer at Blackbaud. He had some great sessions and at that point I made it a goal to be able to talk at one of the sessions in 2018. I thought that dream was over since the Avon Breast Cancer Crusade is no more. 
 

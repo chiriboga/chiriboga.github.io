@@ -3,7 +3,7 @@ layout: post
 title:  "Is Your Website Ready for WordPress Gutenberg"
 date:   2018-09-04 09:00:00 -0500
 image:  'blog/wordpress-gutenberg.jpg'
-tags:   Web
+tags:   web
 ---
 If you are asking yourself - What is Gutenberg? Chances are you are not ready. OK OK Ok. Well that's not 100% true, but if WordPress is going to make such a major change to their system, then you should know what it is and how the change may affect you. 
 

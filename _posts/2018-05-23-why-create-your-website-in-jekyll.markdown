@@ -3,7 +3,7 @@ layout: post
 title:  "Why Create Your Website in Jekyll"
 date:   2018-05-23 15:30:00 -0500
 image:  'blog/jekyll-ft.png'
-tags:   Web
+tags:   web
 ---
 ## What is Jekyll
 This is probably the first question you should be asking yourself if you have never heard of it. To put it in super simple terms, Jekyll is a static website generator. Think about it as a system that allows you to create a blog enabled website without needing a database to house the data. For more of the official definition you can check out the [jekyllrb.com](https://jekyllrb.com/)

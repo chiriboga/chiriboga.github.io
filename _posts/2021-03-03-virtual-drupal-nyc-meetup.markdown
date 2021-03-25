@@ -3,7 +3,7 @@ layout: post
 title:  "Virtual Drupal NYC Meetup March 3rd, 2021 Recap"
 date:   2021-03-03 09:00:00 -0500
 image:  'blog/presenting-ideas.jpeg'
-tags:   Speaking
+tags:   speaking
 ---
 I recently spoke during the Virtual Drupal NYC Meetup March 3rd, 2021 alongside some other great presenters. I think the content supplied was well versed and would be an asset to digest.
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Luminate Online Top Participants WordPress Plugin"
 date:   2018-05-16 11:00:00 -0500
 image:  'blog/top-participants.jpg'
-tags:   Web
+tags:   web
 ---
 A Wordpress Plugin for showing top participants, teams and groups from the Luminate API.  For information on thhe plugin or on how to lease the plugin for your website [contact me](mailto://richardchiriboga@gmail.com) today.
 

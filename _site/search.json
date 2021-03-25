@@ -3,7 +3,7 @@
     {
       "title"    : "Virtual Drupal NYC Meetup March 3rd, 2021 Recap",
       "category" : "",
-      "tags"     : "Speaking",
+      "tags"     : "speaking",
       "url"      : "/2021/03/03/virtual-drupal-nyc-meetup/",
       "date"     : "3 Mar, 2021"
     } ,
@@ -11,7 +11,7 @@
     {
       "title"    : "Launching It&#39;s Our Mission",
       "category" : "",
-      "tags"     : "Speaking",
+      "tags"     : "speaking",
       "url"      : "/2021/02/03/its-our-mission/",
       "date"     : "3 Feb, 2021"
     } ,
@@ -19,7 +19,7 @@
     {
       "title"    : "Recap: Speaking at Blackbaud&#39;s BBCon 2018 in Orlando",
       "category" : "",
-      "tags"     : "Speaking",
+      "tags"     : "speaking",
       "url"      : "/2018/10/14/recap-speaking-at-bbcon-2018/",
       "date"     : "14 Oct, 2018"
     } ,
@@ -27,7 +27,7 @@
     {
       "title"    : "Digestible Content - What is it?",
       "category" : "",
-      "tags"     : "Web",
+      "tags"     : "web",
       "url"      : "/2018/09/22/digestible-content/",
       "date"     : "22 Sep, 2018"
     } ,
@@ -35,7 +35,7 @@
     {
       "title"    : "Is Your Website Ready for WordPress Gutenberg",
       "category" : "",
-      "tags"     : "Web",
+      "tags"     : "web",
       "url"      : "/2018/09/04/ready-for-wordpress-gutenberg/",
       "date"     : "4 Sep, 2018"
     } ,
@@ -43,7 +43,7 @@
     {
       "title"    : "Content Management Systems For Non-profit Organizations",
       "category" : "",
-      "tags"     : "Web",
+      "tags"     : "web",
       "url"      : "/2018/08/26/content-management-systems-for-non-profit-organizations/",
       "date"     : "26 Aug, 2018"
     } ,
@@ -51,7 +51,7 @@
     {
       "title"    : "I built a cool game - &#39;Who Said it? Classic Hiphop Edition&#39;",
       "category" : "",
-      "tags"     : "Web",
+      "tags"     : "web",
       "url"      : "/2018/07/20/who-said-it-classic/",
       "date"     : "20 Jul, 2018"
     } ,
@@ -59,7 +59,7 @@
     {
       "title"    : "I built some pretty cool Wutang Clan Web Apps",
       "category" : "",
-      "tags"     : "Web",
+      "tags"     : "web",
       "url"      : "/2018/07/05/wutangclan-apps/",
       "date"     : "5 Jul, 2018"
     } ,
@@ -67,7 +67,7 @@
     {
       "title"    : "Headed to BBCon to Speak at My First Session",
       "category" : "",
-      "tags"     : "Speaking",
+      "tags"     : "speaking",
       "url"      : "/2018/06/25/speaking-at-bbcon-2018/",
       "date"     : "25 Jun, 2018"
     } ,
@@ -75,7 +75,7 @@
     {
       "title"    : "Generate Random Background Gradient using SASS",
       "category" : "",
-      "tags"     : "CSS",
+      "tags"     : "css",
       "url"      : "/2018/06/05/generate-random-background-gradient-using-sass/",
       "date"     : "5 Jun, 2018"
     } ,
@@ -83,7 +83,7 @@
     {
       "title"    : "Why Create Your Website in Jekyll",
       "category" : "",
-      "tags"     : "Web",
+      "tags"     : "web",
       "url"      : "/2018/05/23/why-create-your-website-in-jekyll/",
       "date"     : "23 May, 2018"
     } ,
@@ -91,7 +91,7 @@
     {
       "title"    : "Luminate Online Top Participants WordPress Plugin",
       "category" : "",
-      "tags"     : "Web",
+      "tags"     : "web",
       "url"      : "/2018/05/16/top-participants/",
       "date"     : "16 May, 2018"
     } ,
@@ -99,7 +99,7 @@
     {
       "title"    : "Cool SASS Margin and Padding Mixin",
       "category" : "",
-      "tags"     : "CSS",
+      "tags"     : "css",
       "url"      : "/2018/05/14/cool-sass-margin-padding-mixin/",
       "date"     : "14 May, 2018"
     } ,
@@ -107,7 +107,7 @@
     {
       "title"    : "The WuTang Clan Question",
       "category" : "",
-      "tags"     : "General",
+      "tags"     : "general",
       "url"      : "/2018/05/13/wutangclan-question/",
       "date"     : "13 May, 2018"
     } 

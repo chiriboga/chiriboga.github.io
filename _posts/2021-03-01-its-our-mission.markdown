@@ -3,7 +3,7 @@ layout: post
 title:  "Launching It's Our Mission"
 date:   2021-02-03 09:00:00 -0500
 image:  'blog/its-our-mission.jpg'
-tags:   Speaking
+tags:   speaking
 ---
 One of the pet projects I have been working on is this concept of [It's Our Mission](https://www.itsourmission.org){:target="_blank"}. My vision is to have a website that is a valuable destination for DIY How-To content for nonprofits in the realm of Creative, Data, Marketing, and Web.
 
