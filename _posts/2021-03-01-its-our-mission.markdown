@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Launching It's Our Mission"
-date:   2018-10-14 09:00:00 -0500
+date:   2021-02-03 09:00:00 -0500
 image:  'blog/its-our-mission.jpg'
 tags:   Speaking
 ---
