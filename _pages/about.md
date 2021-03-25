@@ -7,25 +7,29 @@ image: richard-chiriboga.jpg
 {% include hero-aboutus.html %}
 
 <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
-In a career that spans more than 20 years, Richard has worked across global corporate, non-profit and boutique agency environments. He brings expertise in leading website restructuring, development projects, corporate intranet builds and content management plans through the complete lifecycle. Known for being a trusted partner across global matrixed organizations and having the ability to communicate complex information to both technical and non-technical users, including information pertaining to change management, stakeholder engagement and governance. Hispanic marketing and social media expertise: Created award-winning website CorrienteLatina.com. Fluent in English, with intermediate Spanish fluency.
-<hr/>
+<p>In a career that spans more than 20 years, Richard has worked across global corporate, non-profit and boutique agency environments. He brings expertise in leading website restructuring, development projects, corporate intranet builds and content management plans through the complete lifecycle. Known for being a trusted partner across global matrixed organizations and having the ability to communicate complex information to both technical and non-technical users, including information pertaining to change management, stakeholder engagement and governance. Hispanic marketing and social media expertise: Created award-winning website CorrienteLatina.com. Fluent in English, with intermediate Spanish fluency.</p>
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<h4 class="lates-title">My Skills</h4>
+		</div>
+	</div>
+</div>
 {% include skills.html %}
-<hr/>
-<div class="overlap-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2>Awards</h2>
-      </div>
-    </div>
-    {% include awards.html %}
-  </div>
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<h4 class="lates-title">Awards I have Received</h4>
+		</div>
+	</div>
+</div>
+<div class="container">
+  {% include awards.html %}
 </div>
 <hr/>
-<div class="overlap-container">
-  <div class="container">
+<div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+      <div class="col col-12">
         <h2>Guest Blog Posts</h2>
         <p>I am continually striving to help push the web development culture forward in my own way. Especially in the NonProfit sector. Here are my Guest Blog Posts on different websites.</p>
         <ul>
@@ -51,5 +55,4 @@ In a career that spans more than 20 years, Richard has worked across global corp
       </div>
     </div>
   </div>
-</div>
 </article>

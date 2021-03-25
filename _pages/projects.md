@@ -7,6 +7,13 @@ description: "Some really great projects I have worked on"
 {% include hero-projects.html %}
 <div class="container">
 	<div class="row">
+		<div class="col col-12">
+			<h4 class="lates-title">Latest Projects</h4>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
         <!-- begin article -->
         <div class="article">
         <div class="container">
