@@ -1,19 +1,10 @@
 ---
 layout: post
-title:  "Digestible Content : What is it?"
+title:  "Digestible Content - What is it?"
 date:   2018-09-22 09:00:00 -0500
-comments: true
-categories: information
-shareimage: 'https://richardchiriboga.com/img/blog/digestible-content.jpg'
-contact: true
-image: 'https://richardchiriboga.com/img/blog/digestible-content.jpg'
-excerpt: "Digestible content is a way to break your content into pieces making it easier to read and understand"
+image:  'blog/digestible-content.jpg'
+tags:   Web
 ---
-
-<img src="/img/blog/digestible-content.jpg" class="img-fluid center-block featured-blog-img" />
-
-# {{ page.title }}
-
 Have you ever tried to find information about something, went to a website and all of a sudden you come across a page, scroll down and pow! "It was the best of times, it was the worst of times". You sigh at the mere idea of thinking how long it will take you to read and try to understand the massive amounts of data that are on the page. 
 
 Well **Digestible Content** is a way to try to shift the perspective of the way we show data and how the user consumes it. 
@@ -43,5 +34,4 @@ If you are trying to sell clothes and you go to myfavoriteclothes.com and are lo
 
 So to reiterate, break up the content into clear facts, structure your data and use choice words. 
 
-If you need some help with figuring this out, shoot me a note below. 
-
+If you need some help with figuring this out, shoot me a note below.

@@ -2,17 +2,9 @@
 layout: post
 title:  "Cool SASS Margin and Padding Mixin"
 date:   2018-05-14 15:10:47 -0500
-comments: false
-categories: development
-shareimage: '/img/blog/sass.png'
-contact: true
-image: '/img/blog/sass.png'
-excerpt: "Created some really cool SCSS patterns for your project. If you need something like this. Margin and Padding options in a loop"
+image:  'blog/sass.png'
+tags:   CSS
 ---
-<img src="/img/blog/sass.png" class="img-fluid center-block featured-blog-img" />
-
-# {{ page.title }}
-
 So I have recently really gotten into SASS and how powerful it is. I mean I have used it before but nothing like I have in the last couple of weeks. Real world examples are always the best; Especially when you have a more experienced developer helping. 
 
 ### Margin and Padding
@@ -50,6 +42,3 @@ And what you get is this: Note that each one would be rendered __not__ the "TO"
 You can also check out the CodePen example below.
 <p data-height="400" data-theme-id="0" data-slug-hash="gzBxvP" data-default-tab="css,result" data-user="chiriboga" data-embed-version="2" data-pen-title="Margins and Padding" class="codepen">See the Pen <a href="https://codepen.io/chiriboga/pen/gzBxvP/">Margins and Padding</a> by Richard Chiriboga (<a href="https://codepen.io/chiriboga">@chiriboga</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
-
-Need some help with your SCSS? contact me using the form below:

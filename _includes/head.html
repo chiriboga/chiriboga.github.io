@@ -1,50 +1,23 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{page.title}}</title>
-<meta name="Description" content="{{page.description}}">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/f113990519.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ site.url }}/css/chiriboga.css">
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-<link rel="canonical" href="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" /> {% if page.title %}
-<meta property="og:title" content="{{ page.title }}"> {% else %}
-<meta property="og:title" content="{{ site.title }}"> {% endif %} {% if page.description %}
-<meta content="{{ page.description }}" property="og:description"> {% else %}
-<meta content="{{ site.description }}" property="og:description"> {% endif %} {% if page.url %}
-<meta property="og:url" content="{{ site.url }}{{site.baseurl}}{{ page.url }}"> {% else %}
-<meta property="og:url" content="{{ site.url }}{{site.baseurl}}"> {% endif %} {% if page.shareimage %}
-<meta content="{{ page.shareimage }}" property="og:image"> {% else %}
-<meta content="{{site.shareimage}}" property="og:image"> {% endif %}
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="fb:app_id" content="155605518303650" />
-<meta name="twitter:card" content="summary_large_image" /> {% if page.description %}
-<meta name="twitter:description" content="{{ page.description }}" /> {% else %}
-<meta name="twitter:description" content="{{ site.description }}" /> {% endif %} {% if page.title %}
-<meta name="twitter:title" content="{{ page.title }}" /> {% else %}
-<meta name="twitter:title" content="{ site.title }}" /> {% endif %}
-<meta name="twitter:site" content="@iamchirboga" />
-<meta name="twitter:creator" content="@iamchirboga" />
-<link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/img/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/img/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/img/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/img/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/img/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/img/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/img/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/img/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/img/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ site.baseurl }}/img/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/img/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/img/favicon/favicon-16x16.png">
-<link rel="manifest" href="{{ site.baseurl }}/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="{{ site.baseurl }}/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
+  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <!-- Ionicons -->
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <style>
+  {% capture include_to_scssify %}
+    {% include main.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+  </style>
+</head>

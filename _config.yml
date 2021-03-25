@@ -1,67 +1,35 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Richard Chiriboga
-email: richardchiriboga@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Web Project Manager and front-end developer with extensive experience working across global corporate, non-profit and boutique agency environments.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: iamchiriboga
-github_username:  chiriboga
-timezone: America/New_York
+
+
 # Build settings
 markdown: kramdown
-highlighter: rouge
-  
-theme: 
+permalink: pretty
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-seo-tag
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - node_modules
-  - vendor/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-# SASS Settings
+  - jekyll-sitemap
+  - jekyll/tagging
+
+paginate: 5
+paginate_path: "/page/:num"
+
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
 sass:
   sass_dir: _sass
   style: compressed
-
-# Permalink Configuration
-permalink: /blog/:year/:month/:title/
-category_dir: "blog"
-category_layout: "index.html"
-# Directory used by the data_to_pages plugin.
-tag_dir: 'blog/category'
-
-
-# Collections
-collections:
-  blog:
-    output: true
-    permalink: /blog/:slug/
-  projects:
-    output: true
-    permalink: /projects/:slug/
-
-

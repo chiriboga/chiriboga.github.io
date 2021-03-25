@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: posts
 title: AVON39.org
 link: http://avon39.org/
 img: avon39.jpg

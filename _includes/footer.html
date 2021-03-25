@@ -1,16 +1,18 @@
-<div class="overlap-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <ul class="list-inline social">
-                    <li class="list-inline-item"><a href="https://twitter.com/iamchiriboga" target="_blank" rel="noopener noreferrer" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="https://github.com/chiriboga" target="_blank" rel="noopener noreferrer" class="github"><i class="fa fa-github"></i></a></li>
-                    <li class="list-inline-item"><a href="https://stackoverflow.com/story/richardchiriboga" target="_blank" rel="noopener noreferrer" class="stackoverflow"><i class="fa fa-stack-overflow"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/richardchiriboga" target="_blank" rel="noopener noreferrer" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="list-inline-item"><a href="https://profiles.wordpress.org/rchiriboga" target="_blank" rel="noopener noreferrer" class="wordpress"><i class="fa fa-wordpress"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.drupal.org/user/3560721/" target="_blank" rel="noopener noreferrer" class="drupal"><i class="fa fa-drupal"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<!-- begin footer -->
+<footer class="footer">
+  <div class="container">
+
+    {% if site.data.settings.mailchimp %}
+    {% include subscribe.html %}
+    {% else %} {% endif %}
+
+    {% if site.data.settings.instagram %}
+    {% include instagram.html %}
+    {% else %} {% endif %}
+
+    {% include contact-link.html %}
+
+    <div class="copyright">Copyright &copy; {{site.time | date: '%Y'}} <a href="/">{{ site.data.settings.title }}</a> — All right Reserved. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</div>
 </div>
+</footer>
+<!-- end footer -->

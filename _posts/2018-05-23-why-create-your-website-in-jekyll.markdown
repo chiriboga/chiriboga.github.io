@@ -2,18 +2,9 @@
 layout: post
 title:  "Why Create Your Website in Jekyll"
 date:   2018-05-23 15:30:00 -0500
-comments: true
-categories: development
-shareimage: 'https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png'
-contact: false
-image: '/img/blog/jekyll-ft.png'
-excerpt: "Ever wonder what is outside of WordPress or Drupal? You should really take a look at Jekyll. This is a great static generator platform."
+image:  'blog/jekyll-ft.png'
+tags:   Web
 ---
-<img src="https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png" class="img-fluid center-block featured-blog-img" />
-
-# {{ page.title }}
-
-
 ## What is Jekyll
 This is probably the first question you should be asking yourself if you have never heard of it. To put it in super simple terms, Jekyll is a static website generator. Think about it as a system that allows you to create a blog enabled website without needing a database to house the data. For more of the official definition you can check out the [jekyllrb.com](https://jekyllrb.com/)
 

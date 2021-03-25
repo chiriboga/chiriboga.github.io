@@ -2,17 +2,9 @@
 layout: post
 title:  "Content Management Systems For Non-profit Organizations"
 date:   2018-08-26 10:30:00 -0500
-comments: true
-categories: information
-shareimage: 'https://richardchiriboga.com/img/blog/cms-non-profits.jpg'
-contact: true
-image: 'https://richardchiriboga.com/img/blog/cms-non-profits.jpg'
-excerpt: "As an advocate for Non-Profit Tech, I always find that people always ask me about Content Management Systems and which one I like the most. I don't think that's the right question when you are trying to find a content management system for your non-profit."
+image:  'blog/cms-non-profits.jpg'
+tags:   Web
 ---
-<img src="/img/blog/cms-non-profits.jpg" class="img-fluid center-block featured-blog-img" />
-
-# {{ page.title }}
-
 As an advocate for Non-Profit Tech, I always find that people always ask me about Content Management Systems and which one I like the most. I don't think that's the right question when you are trying to find a content management system for your non-profit. I think the correct question is - based on how my non-profit is set up, what Content Management System makes sense for us. Let's try to break it down:
 
 ## Small or non-existent IT team 

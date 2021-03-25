@@ -2,17 +2,9 @@
 layout: post
 title:  "I built a cool game - 'Who Said it? Classic Hiphop Edition'"
 date:   2018-07-20 10:30:00 -0500
-comments: true
-categories: development
-shareimage: 'https://richardchiriboga.com/img/blog/corrientelatina-who-said-it-FT.png'
-contact: false
-image: 'https://richardchiriboga.com/img/blog/corrientelatina-who-said-it-FT.png'
-excerpt: "Wrote a HTML, CSS, Javascript game based on Old-School rap lyrics called - Who Said It! "
+image:  'blog/corrientelatina-who-said-it-FT.png'
+tags:   Web
 ---
-<img src="/img/blog/corrientelatina-who-said-it-FT.png" class="img-fluid center-block featured-blog-img" />
-
-# {{ page.title }}
-
 I have to admit that I have recently been fascinated with trying to build some cool "game" using only HTML, CSS and Javascript. My first attempt; which is a still a work in progress was a jQuery [remake of "Dope Wars"](https://richardchiriboga.com/drugwars/){:target="_blank"}. Do you guys remember that game?
 
 I think I wanted to see if I could and I think it came out pretty cool. Next I wanted to create something that I could reuse on my own [CorrienteLatina.com"](https://www.corrientelatina.com){:target="_blank"} website as well as the [WuTangClan.net"](http://www.WuTangClan.net){:target="_blank"} website. The one for the WuTang Will drop soon.

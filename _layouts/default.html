@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    {% include head.html %}
-    {% include javascript.html %}
-</head>
-<body id="home" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-23366208-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-    <!-- [begin] header -->
-    {% include header.html %}
-    <!-- [end] header -->
-    <!-- [begin] content -->
+
+{% include head.html %}
+
+<body>
+
+  {% if site.data.settings.google-analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
+  {% include header.html %}
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
     {{ content }}
-    <!-- [end] content -->
-    <!-- [begin] footer -->
-    {% include footer.html %}
-    <!-- [end] footer -->
+  </main>
+  <!-- end content -->
+
+  <div class="top ion ion-ios-arrow-up" title="Top"></div>
+
+  {% include search.html %}
+
+  {% include footer.html %}
+
+  {% include javascripts.html %}
 </body>
 
 </html>

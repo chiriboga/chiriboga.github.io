@@ -2,17 +2,9 @@
 layout: post
 title:  "I built some pretty cool Wutang Clan Web Apps"
 date:   2018-07-05 15:10:47 -0500
-comments: true
-categories: development
-shareimage: 'https://richardchiriboga.com/img/blog/wu-apps-ft.jpg'
-image: "/img/blog/wu-apps-ft.jpg"
-contact: false
-excerpt: Aside from my on CorrienteLatina.com website, I do some really cool coding for the WuTang Clan. I have built some of the web "games" that many people have played on the web.
+image:  'blog/wu-apps-ft.jpg'
+tags:   Web
 ---
-<img src="/img/logo-wutangclan.png" class="img-fluid center-block featured-blog-img" />
-
-# {{ page.title }}
-
 Aside from my on CorrienteLatina.com website, I do some really cool coding for the **WuTang Clan**. I have built some of the web "games" that many people have played on the web.
 
 ***

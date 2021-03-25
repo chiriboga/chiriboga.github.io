@@ -1,15 +1,54 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top iom-navbar">
-    <a class="site-logo transition-link" href="/">
-        <span class="logo-text">RC</span>
-    </a> <a class="navbar-brand" href="/">Richard Chiriboga</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExample04">
-        <ul class="navbar-nav ml-auto">
-            {% for link in site.data.menu %}
-            <li class="nav-item {% if page.url == link.url %} active {%endif %}"><a class="nav-link" href="{{link.url}}">{{link.title}}</a></li>
-            {% endfor %}
-        </ul>
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <!-- begin header -->
+      <header class="header">
+
+        <div class="logo">
+          <a class="logo__link" href="{{site.baseurl}}/">
+          {%if site.data.settings.logo %}
+            <img class="logo__image" src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
+          {% else %}
+            {{ site.data.settings.title }}
+          {% endif %}
+          </a>
+        </div>
+
+        <nav class="main-nav">
+
+          <div class="main-nav__box">
+            <div class="nav-icon__close">
+              <i class="ion ion-ios-close-circle-outline"></i>
+            </div>
+
+            <div class="nav__title">Menu</div>
+
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a href="{{site.baseurl}}/" class="nav__link">Home</a>
+              </li>
+              {% for page in site.pages %}
+                {% unless page.name == 'tags.html' or page.name == '404.html' %}
+              {% if page.title %}
+              <li class="nav__item">
+                <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+              </li>
+              {% endif %}
+                {% endunless %}
+              {% endfor %}
+            </ul>
+
+          </div>
+        </nav>
+
+        <div class="nav-buttons">
+          <i class="nav__icon nav__icon-menu ion ion-md-menu" aria-label="Menu Icon"></i>
+          <i class="nav__icon nav__icon-search ion ion-md-search" aria-label="Search Icon"></i>
+        </div>
+
+        <div class="header__overlay"></div>
+      </header>
+      <!-- end header -->
     </div>
-</nav>
+  </div>
+</div>
