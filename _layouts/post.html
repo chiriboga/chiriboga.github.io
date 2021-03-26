@@ -1,48 +1,47 @@
 ---
 layout: default
 ---
-<div class="container">
-  <div class="post-title-box">
-    <div class="row">
-      <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
-        <span class="post__date">
-          <time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time>
-        </span>
-
-        <h1 class="post-title">{{ page.title | escape }}</h1>
-
-        <div class="post__info">
-          <div class="post__author">
-            <span>By</span>
-            <a href="{{ site.baseurl }}/about/" class="author-name">{{site.data.settings.author.name}}</a>
-          </div>
-
-          {% if page.tags.size >= 1 %}
-          <div class="post__tags">
-            {% for tag in page.tags %}
-            	{{ tag }}
-              <!-- <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tags-tag"></a> -->
-            {% endfor %}
-          </div>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </div>
-
-  {% assign no-image = nil %}
-  {% if page.image %}
-    <div class="post__head">
-      <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
-    </div>
-  {% else %}
-    {% assign no-image = 'post-no-image' %}
-  {% endif %}
-
-  </div>
-
-
+<!-- begin c-hero -->
+<div class="hero" style="margin-bottom: 0">
   <div class="container">
+      <div class="row">
+          <div class="col col-6 col-t-12 last-item">
+              <div class="hero__content">
+                <h1 class="hero__title">{{ page.title | escape }}</h1>
+                <div class="post__info">
+                  <div class="post__author">
+                    <span>By</span>
+                    <a href="{{ site.baseurl }}/about/" class="author-name">{{site.data.settings.author.name}}</a>
+                  </div>
+                  {% if page.tags.size >= 1 %}
+                  <div class="post__tags"><strong>Tags:</strong>
+                    {% for tag in page.tags %}
+                      {{ tag }}
+                      <!-- <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tags-tag"></a> -->
+                    {% endfor %}
+                  </div>
+                  {% endif %}
+                </div>
+        		<span class="post__date" style="display: block;">
+                	<strong>Published:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time>
+                </span>
+              </div>
+          </div>
+          <div class="col col-6 col-t-12">
+				{% assign no-image = nil %}
+					{% if page.image %}
+						<div class="hero__image">
+							<img src="{{site.baseurl}}/images/{{page.image}}" alt="">
+						</div>
+					{% else %}
+					{% assign no-image = 'post-no-image' %}
+				{% endif %} 
+          </div>
+      </div>
+  </div>
+</div>
+<!-- end hero -->
+<div class="container">
   <div class="row">
     <!-- begin post -->
     <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
