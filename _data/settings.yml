@@ -53,6 +53,14 @@ project:
   header: <strong>Projects</strong> I have worked on
   blurb: During the course of my career, I have worked on and continue to work on some great projects. Here are a few of my favs.
 
+#-------------------------------
+# art Settings
+art:
+  name: Art
+  image: chiriboga-art.jpg
+  header: Family <strong>Artwork</strong>
+  blurb: I am blessed to have a family that is talented in so many areas. Art is one of them. Below are some of the newest art pieces for sale.
+
 
 
 #-------------------------------
