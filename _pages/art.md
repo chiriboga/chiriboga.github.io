@@ -1,28 +1,29 @@
 ---
 layout: default
-title: Projects
-permalink: /projects/
-description: "Some really great projects I have worked on"
-menu: true
-sort: 3
+title: Art
+permalink: /art/
+description: "A collection of family art for sale"
+menu: false
+sort: 4
 ---
-{% include hero-projects.html %}
+{% include hero-art.html %}
 <div class="container">
 	<div class="row">
 		<div class="col col-12">
-			<h4 class="lates-title">Latest Projects</h4>
+			<h4 class="lates-title">Latest Art Pieces</h4>
 		</div>
 	</div>
 </div>
 <div class="container">
 	<div class="row">
-        {% for project in site.data.projects %}
+        {% for project in site.data.art %}
+            {% if project.active %}
             <!-- begin article loop -->
             <div class="article">
                 <div class="container">
                     <div class="article__wrapper">
                     {% if project.link != "" %}
-                        <a href="{{project.link}}" target="_blank" rel="noopener noreferrer" class="article__image" style="background-image: url({{project.image}})"></a>
+                        <a href="{{project.link}}" title="{project.title}}" target="_blank" rel="noopener noreferrer" class="article__image" style="background-image: url({{project.image}})"></a>
                     {% else %}
                         <div class="article__image" style="background-image: url({{project.image}})"></div>
                     {% endif %}
@@ -34,7 +35,7 @@ sort: 3
                         </div>
                         <h2 class="article__title">
                         {% if project.link != "" %}
-                            <a href="/2021/06/01/virtual-drupal-nyc-meetup/" target="_blank" rel="noopener noreferrer">{{project.title}}</a>
+                            <a href="{{project.link}}" title="{project.title}}" target="_blank" rel="noopener noreferrer">{{project.title}}</a>
                         {% else %}
                             {{project.title}}
                         {% endif %}
@@ -42,7 +43,9 @@ sort: 3
                         <p class="article__excerpt">{{project.description}}</p>
                         <div class="article__footer">
                         {% if project.link != "" %}
-                            <a href="{{project.link}}" class="read-more" target="_blank" rel="noopener noreferrer">View Website <i class="ion ion-ios-arrow-forward"></i></a>
+                            <a href="{{project.link}}" title="{project.title}}" class="read-more" target="_blank" rel="noopener noreferrer">View Artwork <i class="ion ion-ios-arrow-forward"></i></a>
+                        {% else %}
+                            <span class="read-more">COMING SOON</span>
                         {% endif %}
                         </div>
                     </div>
@@ -50,6 +53,7 @@ sort: 3
                 </div>
             </div>
             <!-- end article -->
+         {% endif %}
         {% endfor %}
     </div><!-- end Row -->
 </div><!-- end Container -->

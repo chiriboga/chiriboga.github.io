@@ -1,10 +1,18 @@
-- title: 'Paper Bag Buildings'
+- title: 'Paper Bag City'
   image: '/images/art/paperbag-city.jpg'
   tag: 'Original NFT Artwork'
-  link: 'https://foundation.app/@chiriboga/'
+  link: 'https://foundation.app/@boga/'
   description: "This piece is an ode to the environment and the greatest city on earth. The Paperbag City is completely available right now on Foundation as a collectible NFT"
+  active: false
+- title: 'Ducky in the Sky!'
+  image: '/images/art/quack.jpg'
+  tag: 'Original NFT Artwork'
+  link: 'https://foundation.app/@boga/ducky-in-the-sky-53274'
+  description: "Let your inner child out as you look at the sky and imagine clouds that remind you of different things. Here is the first in our collection of Cloud Art - Ducky in the Sky! Duck cloud sited: Wednesday, June 23rd at 3:11 PM EST"
+  active: true
 - title: 'UniCOIN'
   image: '/images/art/unicorn-static.png'
   tag: 'Original NFT Artwork'
-  link: 'https://foundation.app/@chiriboga/'
+  link: 'https://foundation.app/@boga/'
   description: "Everyone in the crypto community has their own unicorn coin. I welcome you to UNICOIN! These one of a kind NFTs showcase some of the iconic Cryptocurrency and digital assets around. Look for your favorite unicoin and own it today!"
+  active: false

@@ -27,7 +27,7 @@
                             <li class="nav__item">
                                 <a href="{{site.baseurl}}/" class="nav__link">Home</a>
                             </li>
-                            {% for page in site.pages %} {% unless page.name == 'tags.html' or page.name == '404.html' %} {% if page.title %}
+                            {% assign mainnav = site.pages | sort: 'sort' %} {% for page in mainnav %} {% unless page.name == 'tags.html' or page.name == '404.html' or page.menu == false %} {% if page.title %}
                             <li class="nav__item">
                                 <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
                             </li>

@@ -3,6 +3,8 @@ layout: default
 title: About Me
 permalink: /about/
 image: richard-chiriboga.jpg
+menu: true
+sort: 2
 ---
 {% include hero-aboutus.html %}
 
