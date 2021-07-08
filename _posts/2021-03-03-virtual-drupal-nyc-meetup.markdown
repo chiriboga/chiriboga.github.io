@@ -1,12 +1,27 @@
 ---
 layout: post
-title:  "Speaking at DrupalCon North America 2021 NonProfit Summit"
-date:   2021-06-01 09:00:00 -0500
-image:  'blog/drupalcon-2021-presentation-ft.jpg'
+title:  "Virtual Drupal NYC Meetup March 3rd, 2021 Recap"
+date:   2021-03-08 09:00:00 -0500
+image:  'blog/drupal-nyc-presentation-2021.jpg'
 tags:   speaking
 ---
-Working for a great company like <a href="https://www.smiletrain.org" target="_blank" rel="noopener noreferrer">Smile Train</a> has allowed me to grow as a project manager and has added so much value to my voice across the web ethos. We recently relaunched our website and partnered up with FFW Agency to produce what I would consider one of the best web designs in the nonprofit space out right now. Over a few months, we all worked hard to discuss and come up with a final design, functionality, technology, analytics, goals; both short and long term, as well as user experience and workflows. 
+I recently spoke during the Virtual Drupal NYC Meetup March 3rd, 2021 alongside some other great presenters. I think the content supplied was well versed and would be an asset to digest.
 
-Our teams ran like a seamless machine with each member bringing such great talent and dedication. So it was only right that we continued to work on future projects.  FFW has recently <a href="https://ffwagency.com/work/smile-train" target="_blank" rel="noopener noreferrer">showcased our work</a> together and even worked together to speak at <a href="https://events.drupal.org/drupalcon2021/summit/nonprofit" target="_blank" rel="noopener noreferrer">Drupal Con 2021 Non Profit Summit</a>.
+{% include videos.html type='youtube' video_id='N9vq3Gw1j6I' %}
 
-{% include videos.html type='youtube' video_id='UnO-0AsQLac' %}
+<img src="/images/blog/avoiding-agency-nightmares.png" alt="Avoiding agency nightmares when relaunching your website by Richard Chiriboga">
+
+## Avoiding agency nightmares when relaunching your website by Richard Chiriboga
+We recently launched our new website, having re-built our Drupal 7 site on Drupal 8 without migrating content. There were some great moments and some that could have been avoided. Find out what those were in this Q&A-based talk.
+
+
+<img src="/images/blog/10-minute-drupal-performance-makeover.png" alt="10 minute Drupal web performance makeover by David Jeyachandran">
+
+## 10 minute Drupal web performance makeover by David Jeyachandran
+We'll take a Drupal site and try and make it one of the fastest websites on the Internet - thanks to a few Drupal modules. We will use WebPageTest and Google's Lighthouse score to benchmark our frontend performance and then identify how we can make the site faster. Improving performance can be complicated and time-consuming but with the stopwatch running we'll see what difference we can make in just 10 minutes. At the end of this talk, you'll know how to identify potential performance improvements for your site and which modules to install. Using benchmarking you'll be able to demonstrate the before and after results of your changes.
+
+<img src="/images/blog/building-drupal-azure-rootstack.png" alt="10 minute Drupal web performance makeover by David Jeyachandran">
+
+
+## Building a high availability environment for Drupal with Azure by Diego Tejera
+Microsoft Azure has grown in the last few years and it has proven that it is a solid platform to deploy and scale web applications. In this talk, we are going to show how to easily build an HA environment using the different Azure Services and setup automatic deployments using CI tools.
