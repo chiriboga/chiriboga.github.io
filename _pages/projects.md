@@ -18,6 +18,7 @@ sort: 3
 	<div class="row">
         {% for project in site.data.projects %}
             <!-- begin article loop -->
+            {% if project.inlist == false %}
             <div class="article">
                 <div class="container">
                     <div class="article__wrapper">
@@ -34,7 +35,7 @@ sort: 3
                         </div>
                         <h2 class="article__title">
                         {% if project.link != "" %}
-                            <a href="/2021/06/01/virtual-drupal-nyc-meetup/" target="_blank" rel="noopener noreferrer">{{project.title}}</a>
+                            <a href="{{project.link}}" target="_blank" rel="noopener noreferrer">{{project.title}}</a>
                         {% else %}
                             {{project.title}}
                         {% endif %}
@@ -49,7 +50,34 @@ sort: 3
                     </div>
                 </div>
             </div>
+            {% endif %}
             <!-- end article -->
         {% endfor %}
     </div><!-- end Row -->
 </div><!-- end Container -->
+
+<!--
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<h4 class="lates-title">More Projects</h4>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+        {% for project in site.data.projects %}
+            {% if project.inlist == true %}
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                {% if project.link != "" %}
+                    <a href="{{project.link}}" target="_blank" rel="noopener noreferrer"><h4 style="margin-bottom:0">{{project.title}}</h4></a>
+                {% else %}
+                    <h4 style="margin-bottom:0">{{project.title}}</h4>
+                {% endif %}
+                <p>{{project.tag}}</p>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+-->

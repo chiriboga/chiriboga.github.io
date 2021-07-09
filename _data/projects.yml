@@ -3,38 +3,67 @@
   tag: 'Website Design &amp; Development'
   link: 'https://itsourmission.org'
   description: "This website is my passion project. I utilized the following technologies: Graph CMS, Gatsby, Netlify. My vision is to have a website that is a valuable destination for DIY How-To content for nonprofits in the realm of Creative, Data, Marketing, and Web."
+  inlist: false
 - title: 'WutangClan.net'
   image: '/images/wutangclan-net.png'
   tag: 'Web Design &amp; Development'
   link: 'https://www.wutangclan.net'
   description: "Built the website for one of the most iconic Hip Hop groups of all time. The site is currently built on WordPress. I also built all the games that are currently on the website as well."
+  inlist: false
 - title: 'CorrienteLatina.com'
   image: '/images/corrientelatina.jpg'
   tag: 'Web Design &amp; Development, Marketing, Strategy'
   link: 'https://www.corrientelatina.com'
   description: "Launched in 2005, CorrienteLatina has reimagined itself into many facets of the entertainment niche. From music to movies, we have and continue to be a technology forward website."
+  inlist: false
 - title: 'WutangLegacy.com'
   image: '/images/wutang-legacy.jpg'
   tag: 'Web Design &amp; Development'
   link: 'https://www.wutanglegacy.com/'
   description: "Marketing landing page for the Wu-Tang Clan: Legacy book. This super limited book is a coffee table of some never seen before images contained within 400lbs of individually designed steel and bronze."
+  inlist: false
 - title: 'WutangLatino.com'
   image: '/images/wutanglatino-com.png'
   tag: 'Web Design &amp; Development'
   link: 'https://www.wutanglatino.com'
   description: "Built the website for the LatinX arm of the Wutang Clan. This WordPress website is still currently up and running. You can check out the latest in HipHop Latino from around the world."
+  inlist: false
 - title: 'AvonBCC.org'
   image: '/images/avonbcc.jpg'
   tag: 'Projects'
   link: ''
   description: "Back when I was the Sr. Manager of Web Development at Avon Breast Cancer Crusade, we were working on a brand new website that was set to launch before the entire project was discontinued. This would have been on WordPress specifically to learn more about the company."
+  inlist: false
 - title: 'AVON39.org'
   image: '/images/avon39.jpg'
   tag: 'Web Development'
   link: ''
   description: "Back when I was the Sr. Manager of Web Development at Avon Breast Cancer Crusade, we were working on a brand new website that was set to launch before the entire project was discontinued. This would have been on WordPress backed by Blackbaud's Luminate Online."
+  inlist: false
 - title: 'WutangClan.com'
   image: '/images/wutangclan.jpg'
   tag: 'Web Design &amp; Development'
   link: ''
   description: "No longer up and running, I built this original version of the WutangClan.com website a couple of years ago. Built on WordPress, this was the first evolution to that domain at that time."
+  inlist: false
+- title: 'Dario7.com'
+  image: ''
+  tag: 'Web Design &amp; Development'
+  link: 'https://www.dario7.com'
+  description: ""
+  inlist: true
+- title: 'acgtfoundation.org'
+  image: ''
+  tag: 'PHP, Custom Post Type, Filters Development'
+  link: 'https://acgtfoundation.org/groundbreaking-research/what-we-fund/'
+  description: ""
+  inlist: true
+- title: 'lupusresearch.org'
+  image: '/images/wutangclan.jpg'
+  tag: 'PHP, JavaScript, Classy API, Filters Development'
+  link: 'https://support.lupusresearch.org/'
+  description: ""
+  inlist: true
+  
+
+  
