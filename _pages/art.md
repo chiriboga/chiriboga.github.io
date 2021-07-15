@@ -3,7 +3,7 @@ layout: default
 title: Art
 permalink: /art/
 description: "A collection of family art for sale"
-menu: false
+menu: true
 sort: 4
 ---
 {% include hero-art.html %}
@@ -23,7 +23,7 @@ sort: 4
                 <div class="container">
                     <div class="article__wrapper">
                     {% if project.link != "" %}
-                        <a href="{{project.link}}" title="{project.title}}" target="_blank" rel="noopener noreferrer" class="article__image" style="background-image: url({{project.image}})"></a>
+                        <a href="{{project.link}}" title="{{project.title}}" target="_blank" rel="noopener noreferrer" class="article__image" style="background-image: url({{project.image}})"></a>
                     {% else %}
                         <div class="article__image" style="background-image: url({{project.image}})"></div>
                     {% endif %}

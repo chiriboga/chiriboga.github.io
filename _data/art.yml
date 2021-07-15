@@ -1,3 +1,9 @@
+- title: 'How do you say Hello in your language?'
+  image: '/images/art/happy-face-hello.jpg'
+  tag: 'Original NFT Artwork'
+  link: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/107667218004116754718376563382542635461568786530872288894225888943754602086437'
+  description: "All it takes is a smile and a hello to make someone's day. This piece is the perfect example of that. The animated happy face says hello in 37 different languages. Created by the wife: StrokeDriven. Curated by: BoGa"
+  active: true
 - title: 'Paper Bag City'
   image: '/images/art/paperbag-city.jpg'
   tag: 'Original NFT Artwork'
@@ -9,7 +15,7 @@
   tag: 'Original NFT Artwork'
   link: 'https://foundation.app/@boga/ducky-in-the-sky-53274'
   description: "Let your inner child out as you look at the sky and imagine clouds that remind you of different things. Here is the first in our collection of Cloud Art - Ducky in the Sky! Duck cloud sited: Wednesday, June 23rd at 3:11 PM EST"
-  active: true
+  active: false
 - title: 'UniCOIN'
   image: '/images/art/unicorn-static.png'
   tag: 'Original NFT Artwork'
