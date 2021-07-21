@@ -1,0 +1,8 @@
+- title: 'Art by: LuLiBoga'
+  image: '/images/luliboga-box.jpg'
+  link: '/luliboga'
+  active: true
+- title: 'Art by: StrokeDriven'
+  image: '/images/strokedriven-box2.jpg'
+  link: '/strokedriven'
+  active: true
