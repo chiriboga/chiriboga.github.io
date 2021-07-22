@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Richard Chiriboga</title>
-  <meta name='description' content='Richard Chiriboga is a Web Project Manager, Wordpress and Front-End Developer based out of New York City.'>
+  <title>Mind and Meditation</title>
+  <meta name='description' content='A collection of animated NFT pieces created to help inspire your journey to self-healing and reflection by StrokeDriven'>
 
-  <link rel="canonical" href="/tag/css/">
+  <link rel="canonical" href="/mind-meditation">
   <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
 
   <!-- Fonts -->
@@ -113,104 +113,65 @@
 
   <!-- begin content -->
   <main class="content" aria-label="Content">
-    <div class="arhive-head">
-  <div class="container">
-    <h1 class="archive-title">Tag: <span>css</span></h1>
-  </div>
-</div>
-
-
-
-  
-<!-- begin article -->
-<div class="article">
-  <div class="container">
-
-    <div class="article__wrapper">
-
-        
-          <a href="/2018/06/05/generate-random-background-gradient-using-sass/" class="article__image" style="background-image: url(/images/blog/background-gradient.png)">
-          </a>
-        
-
-        <div class="article__content ">
-          <div class="article-tags">
-          
-            <div class="article-tags__box">
-              
-                <a href="/tag/css" class="article__tag">css</a>
-              
+    <!-- begin c-hero -->
+<div class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col col-6 col-t-12 last-item">
+                <div class="hero__content">
+                    <h1 class="hero__title">Meditation Art by <strong>StrokeDriven</strong></h1>
+                    <p class="hero__subtitle">A collection of animated NFT pieces created to help inspire your journey to self-healing and reflection.</p>
+                    <div class="hero__social">
+                        <span class="hero__social-title">Find My Art |</span>
+                        <div class="contact">
+                            <ul class="contact__list list-reset">
+                                <li><a href="https://opensea.io/collection/mind-meditation" target="_blank" rel="noopener noreferrer"><i class="ion ion-ios-water"></i> OpenSea</a></li>
+                                <!-- <li><a href="https://foundation.app/@BoGa" target="_blank" rel="noopener noreferrer"><i class="ion ion-ios-globe"></i> withFND</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-          
-          </div>
-      
-          <h2 class="article__title">
-            <a href="/2018/06/05/generate-random-background-gradient-using-sass/">Generate Random Background Gradient using SASS</a>
-          </h2>
-      
-          <p class="article__excerpt">I thought it would be a cool idea to be able to create a mixin for adding gradient backgrounds to an element. Then I thought, what if I could create one that would output the gradien...</p>
-          
-          <div class="article__footer">
-            <div class="article__meta">
-              <span class="article__date"><time datetime="2018-06-05T11:00:00-04:00">June 5, 2018</time></span>
+            <div class="col col-6 col-t-12">
+                <div class="hero__image">
+                    <img src="/images/mind-meditation-box.jpg" alt="Mind &amp; Meditation" />
+                </div>
             </div>
-
-            <a href="/2018/06/05/generate-random-background-gradient-using-sass/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
-          </div>
-
         </div>
-
-      </div>
-      
-  </div>
+    </div>
 </div>
-<!-- end article -->
-
-  
-<!-- begin article -->
-<div class="article">
-  <div class="container">
-
-    <div class="article__wrapper">
-
-        
-          <a href="/2018/05/14/cool-sass-margin-padding-mixin/" class="article__image" style="background-image: url(/images/blog/sass.png)">
-          </a>
-        
-
-        <div class="article__content ">
-          <div class="article-tags">
-          
-            <div class="article-tags__box">
-              
-                <a href="/tag/css" class="article__tag">css</a>
-              
-            </div>
-          
-          </div>
-      
-          <h2 class="article__title">
-            <a href="/2018/05/14/cool-sass-margin-padding-mixin/">Cool SASS Margin and Padding Mixin</a>
-          </h2>
-      
-          <p class="article__excerpt">So I have recently really gotten into SASS and how powerful it is. I mean I have used it before but nothing like I have in the last couple of weeks. Real world examples are always th...</p>
-          
-          <div class="article__footer">
-            <div class="article__meta">
-              <span class="article__date"><time datetime="2018-05-14T16:10:47-04:00">May 14, 2018</time></span>
-            </div>
-
-            <a href="/2018/05/14/cool-sass-margin-padding-mixin/" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
-          </div>
-
-        </div>
-
-      </div>
-      
-  </div>
+<!-- end hero -->
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<h4 class="lates-title">Latest Meditation Art by StrokeDriven</h4>
+		</div>
+	</div>
 </div>
-<!-- end article -->
-
+<div class="container">
+	<div class="row">
+    <script type="text/javascript" src="https://richardchiriboga.com/js/vendors/jquery-3.3.1.min.js"></script>
+    <script>
+        var apiurl = "https://api.opensea.io/api/v1/assets?collection=mind-meditation&format=json&limit=50&offset=0&order_by=token_id&order_direction=desc";
+        $.ajax({
+            beforeSend: function(request) {
+                request.setRequestHeader("X-API-KEY", 'ab6250b512f84ea592705b94ae3b52d1');
+            },
+            dataType: "json",
+            url: apiurl,
+            success: function(data) {
+                console.log(data.assets);
+                $.each(data.assets, function(i, item) {
+                    console.log(item.image_url);
+                    $('#results').append('<div class="article"  type-id="item-' + item.token_id + '"><div class="container"><div class="article__wrapper"><a href="' + item.permalink + '" rel="noopener noreferrer" target="_blank" title="' + item.name + '" class="article__image" style="background-image:url(' + item.image_url + ')"></a><div class="article__content"><div class="article-tags"><div class="article-tags__box"><span class="article__tag">Original NFT Artwork</span></div></div><h2 class=article__title><a href="' + item.permalink + '" rel="noopener noreferrer" target="_blank" title="' + item.name + '">' + item.name + '</a></h2><p class="article__excerpt" markdown="1">' + item.description + ' <div class="article__footer"><a href="' + item.permalink + '" rel="noopener noreferrer" target="_blank" title="' + item.name + '" class="read-more">View Artwork <i class="ion ion-ios-arrow-forward"></i></a></div></div></div></div></div>');
+                });
+            }
+        });
+    </script>
+    <div id="results"></div>
+    </div><!-- end Row -->
+</div>
+<!-- end Container -->
 
   </main>
   <!-- end content -->

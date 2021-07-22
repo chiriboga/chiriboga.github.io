@@ -6,3 +6,7 @@
   image: '/images/strokedriven-box2.jpg'
   link: '/strokedriven'
   active: true
+- title: 'Mind & Meditation by: StrokeDriven'
+  image: '/images/mind-meditation-box.jpg'
+  link: '/mind-meditation'
+  active: true

@@ -19,7 +19,7 @@ sort: 4
         {% for project in site.data.artcollections %} {% if project.active %}
             <div class="col col-4 col-m-12">
                 <a href="{{project.link}}"><img src="{{project.image}}" alt="{{project.title}}" class="img-fluid"></a>
-                <a href="{{project.link}}" style="color:#393e46"><h4>{{project.title}}</h4></a>
+                <a href="{{project.link}}" style="color:#393e46"><h5 style="padding-top: 10px;text-transform: uppercase;font-size: 16px;">{{project.title}}</h5></a>
             </div>
             {% endif %}
             {% endfor %}
